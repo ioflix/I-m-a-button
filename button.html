@@ -2,7 +2,25 @@
 <html>
     <head>
         <title>I'm a button</title>
-        <link rel="stylesheet" href="button.css">
+        <style>
+            .push-button{
+    background-color: red;
+    color: white;
+    border-radius: 2px; 
+    cursor: pointer;
+    height: 27px;
+    width: 90px;
+    margin-left: 10px;
+    transition: background-color 0.15s,
+    color 0.15s;
+}
+.push-button:hover{
+    background-color: black;
+}
+.push-button:active{
+    background-color: goldenrod;
+}
+        </style>
     </head>
     <body>
         <p>hello I'm a button</p>
